@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MarioDos" />
+		<Option pch_mode="2" />
+		<Option compiler="raylib" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MarioDos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="raylib" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MarioDos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="raylib" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/MAURO/Documents/UFRGS/algeprog/MarioDos/" />
+		</Compiler>
+		<Linker>
+			<Add library="../../../../../../raylib/mingw/i686-w64-mingw32/lib/libopengl32.a" />
+			<Add library="../../../../../../raylib/mingw/i686-w64-mingw32/lib/libraylib.a" />
+			<Add library="../../../../../../raylib/mingw/i686-w64-mingw32/lib/libole32.a" />
+			<Add library="../../../../../../raylib/mingw/i686-w64-mingw32/lib/libcomdlg32.a" />
+			<Add library="../../../../../../raylib/mingw/i686-w64-mingw32/lib/libwinmm.a" />
+			<Add library="../../../../../../raylib/mingw/i686-w64-mingw32/lib/libgdi32.a" />
+			<Add directory="C:/Users/MAURO/Documents/UFRGS/algeprog/MarioDos/" />
+		</Linker>
+		<Unit filename="arquivo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arquivo.h" />
+		<Unit filename="estruturas.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="midias.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="midias.h" />
+		<Unit filename="movimentacao.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="movimentacao.h" />
+		<Unit filename="telaCarregarMapaRankingContinuar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="telaCarregarMapaRankingContinuar.h" />
+		<Unit filename="telaInicial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="telaInicial.h" />
+		<Unit filename="telaNovoJogo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="telaNovoJogo.h" />
+		<Unit filename="telaSobreAjuda.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="telaSobreAjuda.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

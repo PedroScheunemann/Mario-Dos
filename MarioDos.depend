@@ -1,0 +1,196 @@
+# depslib dependency file v1.0
+1641961851 source:c:\users\mauro\documents\ufrgs\algeprog\mariodos\main.c
+	"raylib.h"
+	"telaInicial.h"
+	"midias.h"
+
+1642358608 source:c:\users\mauro\documents\ufrgs\algeprog\mariodos\telainicial.c
+	"raylib.h"
+	"telaInicial.h"
+	"telaNovoJogo.h"
+	"telaCarregarMapa.h"
+	"telaSobre.h"
+
+1641955789 c:\users\mauro\documents\ufrgs\algeprog\mariodos\telainicial.h
+	"estruturas.h"
+
+1641964441 c:\users\mauro\documents\ufrgs\algeprog\mariodos\telanovojogo.h
+	"estruturas.h"
+
+1642358596 source:c:\users\mauro\documents\ufrgs\algeprog\mariodos\telanovojogo.c
+	"raylib.h"
+	"telaNovoJogo.h"
+	"movimentacao.h"
+	"arquivo.h"
+	<stdio.h>
+	<ctype.h>
+	<stdlib.h>
+
+1635051935 source:c:\users\mauro\documents\ufrgs\algeprog\mariodos\telanovojogo.cpp
+	"raylib.h"
+	"telaNovoJogo.h"
+
+1641956995 source:c:\users\mauro\documents\ufrgs\algeprog\mariodos\movimentacao.c
+	"raylib.h"
+	"telaNovoJogo.h"
+	"movimentacao.h"
+	<stdio.h>
+
+1641954643 c:\users\mauro\documents\ufrgs\algeprog\mariodos\movimentacao.h
+	"estruturas.h"
+
+1641836503 source:c:\users\mauro\documents\ufrgs\algeprog\mariodos\telasobre.c
+	"raylib.h"
+	"telaSobre.h"
+	<locale.h>
+	"midias.h"
+	"telaNovoJogo.h"
+
+1641962610 c:\users\mauro\documents\ufrgs\algeprog\mariodos\telasobre.h
+	"estruturas.h"
+
+1637731959 c:\users\mauro\documents\ufrgs\algeprog\mariodos\midias.h
+	"estruturas.h"
+
+1641964738 source:c:\users\mauro\documents\ufrgs\algeprog\mariodos\midias.c
+	"raylib.h"
+	"midias.h"
+
+1642358333 c:\users\mauro\documents\ufrgs\algeprog\mariodos\arquivo.h
+	"estruturas.h"
+
+1642358350 source:c:\users\mauro\documents\ufrgs\algeprog\mariodos\arquivo.c
+	"raylib.h"
+	"arquivo.h"
+	"telaNovoJogo.h"
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdlib.h>
+
+1637370623 c:\users\mauro\documents\ufrgs\algeprog\mariodos\telacontinuar.h
+	"telaInicial.h"
+	"telaNovoJogo.h"
+
+1637447656 source:c:\users\mauro\documents\ufrgs\algeprog\mariodos\telacontinuar.c
+	"telaContinuar.h"
+	"telaNovoJogo.h"
+	"movimentacao.h"
+	"arquivo.h"
+	<stdio.h>
+	<stdlib.h>
+
+1642358659 c:\users\mauro\documents\ufrgs\algeprog\mariodos\telacarregarmapa.h
+	"estruturas.h"
+
+1642365072 source:c:\users\mauro\documents\ufrgs\algeprog\mariodos\telacarregarmapa.c
+	"telaCarregarMapa.h"
+	"telaNovoJogo.h"
+	"movimentacao.h"
+	"arquivo.h"
+	<stdio.h>
+	<stdlib.h>
+
+1641964696 c:\users\mauro\documents\ufrgs\algeprog\mariodos\estruturas.h
+	"raylib.h"
+
+1641961851 source:c:\users\mauro\desktop\mariodos\main.c
+	"raylib.h"
+	"telaInicial.h"
+	"midias.h"
+
+1641955789 c:\users\mauro\desktop\mariodos\telainicial.h
+	"estruturas.h"
+
+1642533998 c:\users\mauro\desktop\mariodos\estruturas.h
+	"raylib.h"
+
+1637731959 c:\users\mauro\desktop\mariodos\midias.h
+	"estruturas.h"
+
+1642552917 source:c:\users\mauro\desktop\mariodos\movimentacao.c
+	"raylib.h"
+	"telaNovoJogo.h"
+	"movimentacao.h"
+	<stdio.h>
+
+1641964441 c:\users\mauro\desktop\mariodos\telanovojogo.h
+	"estruturas.h"
+
+1641954643 c:\users\mauro\desktop\mariodos\movimentacao.h
+	"estruturas.h"
+
+1642550056 source:c:\users\mauro\desktop\mariodos\telacarregarmapa.c
+	"telaCarregarMapa.h"
+	"telaNovoJogo.h"
+	"movimentacao.h"
+	"arquivo.h"
+	<stdio.h>
+	<stdlib.h>
+
+1642358659 c:\users\mauro\desktop\mariodos\telacarregarmapa.h
+	"estruturas.h"
+
+1642550830 c:\users\mauro\desktop\mariodos\arquivo.h
+	"estruturas.h"
+
+1642553201 source:c:\users\mauro\desktop\mariodos\telainicial.c
+	"raylib.h"
+	"telaInicial.h"
+	"telaNovoJogo.h"
+	"telaCarregarMapaRankingContinuar.h"
+	"telaSobreAjuda.h"
+
+1641962610 c:\users\mauro\desktop\mariodos\telasobre.h
+	"estruturas.h"
+
+1642551255 source:c:\users\mauro\desktop\mariodos\telanovojogo.c
+	"raylib.h"
+	"telaNovoJogo.h"
+	"movimentacao.h"
+	"arquivo.h"
+	<stdio.h>
+	<ctype.h>
+	<stdlib.h>
+
+1641836503 source:c:\users\mauro\desktop\mariodos\telasobre.c
+	"raylib.h"
+	"telaSobre.h"
+	<locale.h>
+	"midias.h"
+	"telaNovoJogo.h"
+
+1642553193 source:c:\users\mauro\desktop\mariodos\arquivo.c
+	"raylib.h"
+	"arquivo.h"
+	"telaNovoJogo.h"
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdlib.h>
+
+1642532625 source:c:\users\mauro\desktop\mariodos\midias.c
+	"raylib.h"
+	"midias.h"
+
+1642553193 source:c:\users\mauro\desktop\mariodos\telacarregarmaparankingcontinuar.c
+	"telaCarregarMapaRankingContinuar.h"
+	"telaNovoJogo.h"
+	"movimentacao.h"
+	"arquivo.h"
+	<stdio.h>
+	<stdlib.h>
+
+1642358659 c:\users\mauro\desktop\mariodos\telacarregarmaparankingcontinuar.h
+	"estruturas.h"
+
+1641962610 c:\users\mauro\desktop\mariodos\telasobreajuda.h
+	"estruturas.h"
+
+1642553208 source:c:\users\mauro\desktop\mariodos\telasobreajuda.c
+	"raylib.h"
+	"telaSobreAjuda.h"
+	<locale.h>
+	"midias.h"
+	"telaNovoJogo.h"
+
