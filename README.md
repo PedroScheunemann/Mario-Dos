@@ -16,15 +16,15 @@ Ao selecionar ‘Sair’, o jogo é encerrado.
 
 Algumas observações sobre o jogo:
 
-Ao salvar o jogo, as informações do jogo atual são salvas em um arquivo texto, de modo que ao selecionar a opção “Continuar”, as informações são lidas deste arquivo para recriar a situação de quando o jogo foi salvo.
+Ao salvar o jogo, as informações do jogo atual são salvas em dois arquivos binários, de modo que ao selecionar a opção “Continuar”, as informações são lidas destes arquivos para recriar a situação de quando o jogo foi salvo. (nome dos arquivos: "continuar1.bin" e "continuar2.bin")
 
-A cada fim de gameplay, o nome e a pontuação do jogador são salvos em um arquivo binário caso esta pontuação exceda alguma das outras 5 que já estão nesse arquivo, compondo uma hierarquia. Na opção “Ranking”, este arquivo é lido para desenhar as colocações dos 5 melhores jogadores na tela corretamente.
+A cada fim de gameplay, o nome e a pontuação do jogador são salvos em um arquivo binário caso esta pontuação exceda alguma das outras 5 que já estão nesse arquivo, compondo uma hierarquia. Na opção “Ranking”, este arquivo é lido para desenhar as colocações dos 5 melhores jogadores na tela corretamente. (nome do arquivo: "highscores.bin")
 
 As fases do jogo foram criadas em um formato específico de arquivo texto que são lidos pelo programa para criar o desenho na tela e dar vida ao jogo. Ao fazer o download do projeto completo, é possível criar mais fases e adicionar ao jogo, bastando adicionar o arquivo na pasta de fases. 
 O formato dos arquivos das fases são: 
 28 linhas e 120 colunas de caracteres representando o mapa, onde ‘p’ é lido como plataforma, ‘c’ como cano, dígitos de 1-9 como o retorno dos canos, ‘m’ o lugar de aparição do Mario e ‘b’ o botão Power. O resto do mapa pode ser preenchido com ‘-‘. 
 Na linha 29, o primeiro número representa o número de tartarugas desta fase, o segundo número representa o número de caranguejos, e o terceiro número o delay entre a aparição dos inimigos.
-É possível ver exemplos de arquivos de fases que eu montei na pasta de “fases”, no projeto.
+É possível ver exemplos de arquivos de fases que eu montei na pasta de “fases”, no projeto. (nome dos arquivos: "fase1.txt", "fase2.txt" e "fase3.txt")
 
 Outras características do jogo podem ser modificadas de acordo com seu gosto, basta analisar o projeto para saber onde fazer tal modificação no código.
 
